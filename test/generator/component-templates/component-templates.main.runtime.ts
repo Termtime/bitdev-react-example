@@ -54,10 +54,10 @@ const Styled${context.namePascalCase} = styled.div<${context.namePascalCase}Prop
   display: flex;
 \`;
 
-export function ${context.namePascalCase}({}: ${context.namePascalCase}Props) {
+export function ${context.namePascalCase}(props: ${context.namePascalCase}Props) {
   return (
     <ThemeProvider theme={{}}>
-      <Styled${context.namePascalCase}>
+      <Styled${context.namePascalCase} {...props}>
       </Styled${context.namePascalCase}>
     </ThemeProvider>
   );

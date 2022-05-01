@@ -39,11 +39,11 @@
             }
         }
     },
-    "ui/grid": {
+    "ui/container": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "test/ui/grid",
+        "rootDir": "test/ui/container",
         "config": {
             "teambit.envs/envs": {
                 "env": "teambit.react/react"

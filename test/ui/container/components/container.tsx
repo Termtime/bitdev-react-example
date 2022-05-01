@@ -1,18 +1,19 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 
-export type GridProps = {
+export type ContainerProps = {
   // add props here
 };
 
-const StyledGrid = styled.div<GridProps>`
+const StyledContainer = styled.div<ContainerProps>`
   display: flex;
 `;
 
-export function Grid({}: GridProps) {
+export function Container(props: ContainerProps) {
   return (
     <ThemeProvider theme={{}}>
-      <StyledGrid></StyledGrid>
+      <StyledContainer {...props}>
+      </StyledContainer>
     </ThemeProvider>
   );
 }
