@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prestart": "bit cc && npm run build",
+    "start": "bit start",
+    "start:clean": "rm -rf pnpm-lock.yaml && npm run initialize && npm run start",
+    "build": "bit compile",
+    "lint": "eslint design_system_version2_staging --ext .ts,.tsx",
+    "test": "bit test",
+    "initialize": "sh ./initialize.sh && husky install",
+    "install": "bit install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
