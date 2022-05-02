@@ -50,5 +50,16 @@
             }
         }
     },
+    "ui/spacer": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "bitdev-react-example/ui/spacer",
+        "config": {
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "$schema-version": "14.9.0"
 }
