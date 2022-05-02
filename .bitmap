@@ -10,56 +10,34 @@
 
 {
     "button": {
-        "scope": "",
-        "version": "",
+        "scope": "termtime.bitdev-react-example",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "bitdev-react-example/button",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "bitdev-react-example/button"
     },
     "envs/my-env": {
-        "scope": "",
-        "version": "",
+        "scope": "termtime.bitdev-react-example",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "bitdev-react-example/envs/my-env"
     },
     "generator/component-templates": {
-        "scope": "",
-        "version": "",
+        "scope": "termtime.bitdev-react-example",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "bitdev-react-example/generator/component-templates",
-        "config": {
-            "teambit.harmony/aspect": {},
-            "teambit.envs/envs": {
-                "env": "teambit.harmony/aspect"
-            }
-        }
+        "rootDir": "bitdev-react-example/generator/component-templates"
     },
     "ui/container": {
-        "scope": "",
-        "version": "",
+        "scope": "termtime.bitdev-react-example",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "bitdev-react-example/ui/container",
-        "config": {
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "bitdev-react-example/ui/container"
     },
     "ui/spacer": {
-        "scope": "",
-        "version": "",
+        "scope": "termtime.bitdev-react-example",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "bitdev-react-example/ui/spacer",
-        "config": {
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
+        "rootDir": "bitdev-react-example/ui/spacer"
     },
     "$schema-version": "14.9.0"
 }

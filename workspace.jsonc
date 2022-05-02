@@ -70,8 +70,8 @@
   */
   "teambit.generator/generator": {
     "aspects": [
-      "company.scope/generator/component-templates"
+      "termtime.bitdev-react-example/generator/component-templates"
     ]
   },
-  "company.scope/generator/component-templates": {}
+  "termtime.bitdev-react-example/generator/component-templates": {}
 }
