@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "termtime.test"
+    "defaultScope": "termtime.bitdev-react-example"
   },
   /**
    * main configuration for component dependency resolution.
