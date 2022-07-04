@@ -9,6 +9,11 @@ export type ButtonProps = {
    * Button onClick handler.
    */
   onClick?: () => void;
+
+  /**
+   * Button's text.
+   */
+  title?: string;
 };
 
 export function Button({ children, onClick }: ButtonProps) {
