@@ -2,11 +2,15 @@ import React, { ReactNode } from 'react';
 
 export type ButtonProps = {
   /**
-   * a node to be rendered in the special component.
+   * A node to be rendered in the special component.
    */
   children?: ReactNode;
+  /**
+   * Button onClick handler.
+   */
+  onClick?: () => void;
 };
 
-export function Button({ children }: ButtonProps) {
-  return <button>{children}</button>;
+export function Button({ children, onClick }: ButtonProps) {
+  return <button onClick={onClick}>{children}</button>;
 }
