@@ -11,7 +11,7 @@
 {
     "button": {
         "scope": "termtime.bitdev-react-example",
-        "version": "0.0.1",
+        "version": "a2b62e399ad3b6b8eef225732e4ab6d8ffe3759e",
         "mainFile": "index.ts",
         "rootDir": "bitdev-react-example/button",
         "lanes": [
